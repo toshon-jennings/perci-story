@@ -1,0 +1,22 @@
+{
+  "name": "perci-story",
+  "version": "1.0.1",
+  "description": "Build an evidence-backed product story from Git history and an optional Graphify knowledge graph.",
+  "type": "module",
+  "bin": {
+    "story": "bin/perci-story.mjs",
+    "perci-story": "bin/perci-story.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "changelog",
+    "graphify",
+    "architecture",
+    "story",
+    "history"
+  ],
+  "license": "MIT"
+}
