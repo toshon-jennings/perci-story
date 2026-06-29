@@ -57,4 +57,4 @@ If your project has a Graphify graph (at `graphify-out/graph.json` or `docs/arch
 
 Run `graphify update` to keep the graph fresh before generating stories over large ranges.
 
-> **Tip:** For large ranges, consider using [graphify-diff](https://github.com/toshon-jennings/graphify-diff) instead of a full `graphify update`. It incrementally patches your existing graph using only the files changed in a git diff — no re-extraction, no LLM calls, no tree-sitter re-parse of the entire codebase. Cascades changes to dependent nodes and re-clusters affected communities. Seconds instead of minutes on large repos.
+> **Tip:** Especially for large ranges, consider using [graphify-diff](https://github.com/toshon-jennings/graphify-diff) instead of a full `graphify update`. It incrementally patches your existing graph using only the files changed in a git diff — no re-extraction, no LLM calls, no tree-sitter re-parse of the entire codebase. Cascades changes to dependent nodes and re-clusters affected communities. Seconds instead of minutes on large repos.
