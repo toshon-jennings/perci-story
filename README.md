@@ -56,3 +56,5 @@ Without a config file, perci-story falls back to generic path-based classificati
 If your project has a Graphify graph (at `graphify-out/graph.json` or `docs/architecture/graphify-out/graph.json`), perci-story automatically enriches episodes with graph node counts, community IDs, and indexed symbol names.
 
 Run `graphify update` to keep the graph fresh before generating stories over large ranges.
+
+> **Tip:** For large ranges, consider using [graphify-diff](https://github.com/toshon-jennings/graphify-diff) instead of a full `graphify update`. It incrementally patches your existing graph using only the files changed in a git diff — no re-extraction, no LLM calls, no tree-sitter re-parse of the entire codebase. Cascades changes to dependent nodes and re-clusters affected communities. Seconds instead of minutes on large repos.
