@@ -1,6 +1,6 @@
 {
   "name": "perci-story",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Build an evidence-backed product story from Git history and an optional Graphify knowledge graph.",
   "type": "module",
   "bin": {
