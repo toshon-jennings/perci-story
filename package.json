@@ -7,6 +7,7 @@
     "story": "bin/perci-story.mjs",
     "perci-story": "bin/perci-story.mjs"
   },
+  "repository": "https://github.com/toshon-jennings/perci-story",
   "engines": {
     "node": ">=18"
   },
